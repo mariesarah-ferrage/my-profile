@@ -1,0 +1,137 @@
+/* HTML tags styles */
+
+a {
+	font-size: 50px;
+	color: #DDDDDD;
+	transition: 0.5s ease;
+}
+
+a:hover {
+	color: #F7C8E0;
+}
+
+button {
+	padding: 10px;
+	background-color: #DDDDDD;
+	border-radius: 10px;
+	border: #DDDDDD;
+}
+
+button:hover {
+	background-color: #F7C8E0;
+	transform: scale(1.5);
+	transition: 1s ease;
+}
+
+h1 {
+	color: white;
+	background-color: #003B73;
+	font-size: 40px;
+	letter-spacing: 0;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	letter-spacing: 0;
+}
+
+li {
+	list-style-type:none;
+	display: inline;
+	margin: 3em;
+}
+
+p {
+	font-family: Playfair Display, serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+
+/* class styles */
+
+.box-white {
+	background: white;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 0 8px 10px lightgrey;
+	margin: 60px;
+}
+
+.container {
+	text-align: center;
+	width: 1300px;
+	margin: auto;
+}
+
+.link-center:hover {
+	transform: scale(1.5);
+	transition: 1s ease;
+}
+
+.my-titles {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	font-weight: lighter;
+	background-color: #0074B7;
+}
+
+
+/*Id styles*/
+
+#cahors {
+	color: white;
+	text-decoration: none;
+	font-family: 'DM Serif Text', serif;
+	font-weight: bolder;
+	font-size: 25px;
+
+}
+
+#cahors:hover {
+	background-color: #F7C8E0;
+	transform: scale(1.5);
+	transition: 1s ease;
+}
+
+#introduction > p {
+	margin-bottom: 30px;
+}
+
+#logo {
+	border: 4px solid black;
+	border-radius: 50%;
+}
+
+#img-borders {
+	border-radius: 10%;
+	box-shadow: 3px 3px 5px lightgrey;
+}
+
+
+/* Media queries */
+
+@media (max-width: 900px) {
+	.container {
+		width: 750px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+		margin: auto;
+	}
+}
